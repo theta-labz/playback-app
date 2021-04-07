@@ -1,0 +1,17 @@
+{
+    "mount": {
+        "public": { "url": "/", "static": true },
+        "src": { "url": "/assets" }
+    },
+    "alias": {
+        "src": "./src"
+    },
+    "plugins": ["@snowpack/plugin-dotenv", "@snowpack/plugin-typescript"],
+    "buildOptions": {
+        "metaUrlPath": "assets"
+    },
+    "devOptions": {
+        "open": "none"
+    },
+    "routes": [{ "match": "routes", "src": ".*", "dest": "/index.html" }]
+}

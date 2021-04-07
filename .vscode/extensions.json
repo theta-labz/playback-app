@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "esbenp.prettier-vscode",
+        "ms-vscode.js-debug-nightly",
+        "ms-vscode.vscode-js-profile-flame",
+        "runem.lit-plugin",
+        "visualstudioexptteam.vscodeintellicode"
+    ],
+    "unwantedRecommendations": ["msjsdiag.debugger-for-chrome", "msjsdiag.debugger-for-edge"]
+}

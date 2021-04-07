@@ -1,0 +1,20 @@
+{
+    "debug.javascript.usePreview": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true,
+        "source.organizeImports": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "search.exclude": {
+        "**/.vercel": true,
+        "**/.vscode": true,
+        "**/build": true,
+        "**/node_modules": true
+    }
+}
